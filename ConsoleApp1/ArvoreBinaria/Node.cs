@@ -26,7 +26,6 @@
             else
             {
                 RightNode = son;
-                son.Father = Father;
             }
         }
     }
