@@ -54,14 +54,7 @@
         public int NodeDepth(Node node)
         {
             //Por ser uma árvore binária temos como profundidade de um nó o comprimento do caminho da raiz até o nó;
-            var profundidade = 0;
-            if(node.Father != null)
-            {
-                ++profundidade; 
-                return profundidade;
-            }
-            
-            return profundidade;
+            return node.Level;
         }
 
         public int NodeHeight(Node node)

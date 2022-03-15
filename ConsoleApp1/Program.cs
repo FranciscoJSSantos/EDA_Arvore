@@ -46,7 +46,7 @@ Console.WriteLine($"O nível do nó {parametro.Name} é {tree.NodeLevel(parametr
 
 Console.WriteLine(new string('-', 40));
 //Print para saber a profundidade; Lembrar de trocar o parâmetros dos prints 
-Console.WriteLine($"A profundidade de {parametro.Name} é {tree.NodeLevel(parametro)}");
+Console.WriteLine($"A profundidade de {parametro.Name} é {tree.NodeDepth(parametro)}");
 
 Console.WriteLine(new string('-', 40));
 //Altura é por dimensão você conta a partir de 1 a não ser que não exista no caso de só tem a raiz
