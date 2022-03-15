@@ -1,4 +1,4 @@
-﻿using ArvoreBinaria;
+﻿using Arvore;
 
 var nodeFather = new Node("A", true);
 var nodeSon1 = new Node("B", false);

@@ -1,4 +1,4 @@
-﻿namespace ArvoreBinaria
+﻿namespace Arvore
 {
     public class Tree
     {
